@@ -1,0 +1,27 @@
+.tweet-card {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.tweet-card:active {
+  cursor: grabbing;
+}
+
+.tweet-card-stack {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tweet-embed {
+  padding: 16px;
+} 
